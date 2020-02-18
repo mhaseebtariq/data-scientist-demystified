@@ -69,7 +69,7 @@ Given the context:
 * Descriptive and exploratory analytics skills
 
 ### Parameters Estimation
-After designing the model the next step is to automate the estimation of the model parameters. There are two kinds of parameters - model parameters; and hyper-parameters. To understand what model parameters are, let's say that our forecasting model can be expressed (in the most simplest way) as follows:
+After designing the model the next step is to automate the estimation of the model parameters. Of our forecasting model there are two kinds of parameters - model parameters; and hyper-parameters. To understand what model parameters are, let's say that our forecasting model can be expressed (in the most simplest way) as follows:
 
 >Forecast for the next week = <b>10000</b> + <b>1.15</b> x (sales of the same week from last year) + <b>1.05</b> x (mean sales of last week) + <b>5000</b> x (if the next week falls in the Christmas period)
 
