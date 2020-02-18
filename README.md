@@ -28,7 +28,7 @@ First, let's outline the core responsibilities of a data scientist:
 5. Building monitoring tools which could assist in improving/controlling the models output
 
 #### What are models
-A model is a “representation” of a physical object; a process; a system; or a phenomenon. 
+A model is a “representation” (or simplification) of a physical object; a process; a system; or a phenomenon. 
 A representation is by definition not accurate, therefore, we have the aphorism:
 >All models are wrong, but some are useful.
 
