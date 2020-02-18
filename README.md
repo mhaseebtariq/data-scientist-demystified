@@ -36,7 +36,7 @@ A representation is by definition not accurate, therefore, we have the aphorism:
 The <b>usefulness</b> of a model depends on the design; parameters; complexity; and assumptions made for the model. In different contexts/scenarios a model can become more or less useful.
 
 ### Model Design
-Let's take the example of a forecasting model. [TODO]
+Let's suppose our (imagined) newly-hired data scientist is working in an e-commerce company that sells electronic devices on their website. After talking with all the different stakeholders in the company; and doing some initial cost/feasibility analysis - she realises that operational forecasting is one of the most cricial areas where data science can save the company a lot of money. Currently the forecasting is done using some simple calculations. A business analyst looks at the sales of the last few weeks and estimates the expected number of sales for the future weeks using weighted averages. This estimate is then used by the warehouse planning manager to hire more or less temporary workers. If the forecast turns out to be too high the warehouse manager ends up with too many workers who have no work to do and therefore the workers cost the company extra money. On the other hand if the forecast is too low, the warehouse does not have enought workers and the customers do not get their packages delivered on time.
 
 ### Parameters Estimation
 For our forecasting model the parameters are... [TODO]
