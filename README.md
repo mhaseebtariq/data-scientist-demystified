@@ -89,11 +89,19 @@ An important property of data science models is that they expire after some time
 #### What is required from our data scientist
 * Basic data engineering skills
 * Familiarity with continuous integration/deployment concepts and technologies
+* Experience with Cloud platforms and services like AWS, GCP, Azure
 
 ### Explaining Model
 Like mentioned before in some contexts it is really important to explain the model output. Imagin the level of confidence the operations analyst will have if she's presented with the explanation of the sales forecast in the following manner:
 ![Model Explanation](./model-explanation.jpg)
+* The different colours explain the contribution of different predictors in the forecast
 
+#### What is required from our data scientist
+* Familiarity with visualisation tools and technologies
+* Knowledge of Game theory
 
 ### Monitoring Model
-To make sure... [TODO]
+We have a useable forecasting model. Now it's time to make sure that the forecasts made by the model are accurate, stable, and reliable. To achieve that, it is really important to set some benchmarks first.
+
+#### What is required from our data scientist
+* Familiarity with advanced visualisation, monitoring, and dashboarding tools
