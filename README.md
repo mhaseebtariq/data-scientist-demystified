@@ -38,7 +38,7 @@ The <b>usefulness</b> of a model depends on the design; parameters; complexity; 
 ### Model Design
 Let's take the example of a forecasting model. [TODO]
 
-### Parammeters Estimation
+### Parameters Estimation
 For our forecasting model the parameters are... [TODO]
 
 ### Updating Model
