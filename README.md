@@ -67,9 +67,9 @@ Given the context:
 
 ### Parameters Estimation
 After designing the model the next step is to automate the estimation of the model parameters. There are two kinds of parameters - model parameters; and hyper-parameters. To understand what model parameters are, let's say that our forecasting model can be expressed (in the most simplest way) as follows:
-```
-Forecast for the next week = <b>10000</b> + <b>1.15</b> * (sales of the same week from last year) + <b>1.05</b> * (mean sales of last week) + <b>5000</b> * (if the next week falls in the Christmas period)
-```
+
+>Forecast for the next week = <b>10000</b> + <b>1.15</b> * (sales of the same week from last year) + <b>1.05</b> * (mean sales of last week) + <b>5000</b> * (if the next week falls in the Christmas period)
+
 For this example - 10000, 1.15, 1.05, and 5000 are the 4 model parameters. These 4 parameters come from the design phase of the model. How these parameters are estimated depends on the machine learning algorithm that is being used. The machine learning algorithms also have their own parameters, the hyper-parameters. These parameters can be thought of as the knobs of the machine learning algorithm, to control how the model parameters are trained. The combination of model parameters and hyper-parameters yield different forecasts. Automating the algorithm for selecting the best combination of parameters, is therfore, a crucial part for having a "useable" model.
 
 #### What is required from our data scientist
