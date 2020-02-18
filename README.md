@@ -24,6 +24,8 @@ Of course, to answer this million-dollar question, we need more explanation. A s
 First, let's outline the core responsibilities of a data scientist:
 1. [Designing](#model-design) models which could help in making better and/or faster decisions
     * Models built on; or backed by <b>data</b>
+    * One misconception about data scientists is that they only deal with the Machine Learning models
+    * There are dozens of uses of models, the seven main ones are: to <i>reason, explain, design, communicate, act, predict, and explore</i>[1] 
 2. Automating the [parameters estimation](#parameters-estimation) for the models
 3. Making sure the [models can be updated](#updating-model), with new information, in the fastest; most friction-less way possible
 4. [Explaining](#explaining-model); or building tools which could explain the models (or models output)
@@ -109,3 +111,5 @@ We have a useable forecasting model. Now it's time to make sure that the forecas
 #### What is required from our data scientist
 * Familiarity with advanced visualisation, monitoring, and dashboarding tools
 * Statistics and probability theory
+
+1. Scott E. Page, <i>The Model Thinker</i> 2018
