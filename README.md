@@ -32,4 +32,4 @@ A model is a “representation” (or simplification) of a physical object; a pr
 A representation is by definition not accurate, therefore, we have the aphorism:
 >All models are wrong, but some are useful.
 
-The <b>usefulness</b> of the model depends on the design; parameters; complexity; and assumptions made for the model.
+The <b>usefulness</b> of a model depends on the design; parameters; complexity; and assumptions made for the model.
