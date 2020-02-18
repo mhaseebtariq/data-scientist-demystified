@@ -23,7 +23,7 @@ What the data scientist do?<br>
 Of course, to answer this million-dollar question, we need more explanation. A side note: the term "Data Scientist" was coined in 2008.
 First, let's outline the core responsibilities of a data scientist:
 1. [Designing](#model-design) models which could help in making better and/or faster decisions
-    * Models built on or backed by <b>data</b>
+    * Models built on; or backed by <b>data</b>
 2. Automating the [parameters estimation](#parameters-estimation) for the models
 3. Making sure the [models can be updated](#updating-model), with new information, in the fastest; most friction-less way possible
 4. [Explaining](#explaining-model); or building tools which could explain the models (or models output)
@@ -34,7 +34,7 @@ A model is a “representation” (or simplification) of a physical object; a pr
 A representation is by definition not accurate, therefore, we have the aphorism:
 >All models are wrong, but some are useful.
 
-The <b>usefulness</b> of a model depends on the design; parameters; complexity; and assumptions made for the model. In different contexts/scenarios a model can become more or less useful.
+The <b>usefulness</b> of a model depends on the design; parameters; complexity; and assumptions made for the model. In different contexts/scenarios a model can become more or less useful. Let's explore an example use case where a useful model can be employed.
 
 ### Model Design
 Let's suppose our (imagined) newly-hired data scientist is working in an e-commerce company that sells electronic devices on their website. After talking with all the different stakeholders in the company; and doing some initial cost/feasibility analysis - she realises that operational forecasting is one of the most cricial areas where data science can save the company a lot of money. Currently the forecasting is done using some simple calculations. A business analyst looks at the sales of the last few weeks and estimates the expected number of sales for the future weeks using weighted averages. This estimate is then used by the warehouse planning manager to hire more or less temporary workers. 
@@ -109,4 +109,3 @@ We have a useable forecasting model. Now it's time to make sure that the forecas
 #### What is required from our data scientist
 * Familiarity with advanced visualisation, monitoring, and dashboarding tools
 * Statistics and probability theory
-
