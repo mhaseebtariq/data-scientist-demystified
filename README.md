@@ -39,10 +39,23 @@ The <b>usefulness</b> of a model depends on the design; parameters; complexity; 
 Let's suppose our (imagined) newly-hired data scientist is working in an e-commerce company that sells electronic devices on their website. After talking with all the different stakeholders in the company; and doing some initial cost/feasibility analysis - she realises that operational forecasting is one of the most cricial areas where data science can save the company a lot of money. Currently the forecasting is done using some simple calculations. A business analyst looks at the sales of the last few weeks and estimates the expected number of sales for the future weeks using weighted averages. This estimate is then used by the warehouse planning manager to hire more or less temporary workers. 
 
 #### Risks involved with bad forecast
-* If the forecast turns out to be too high the warehouse manager ends up with too many workers who have no work to do and therefore the workers cost the company extra money
+* If the forecast turns out to be too high the warehouse manager ends up with too many workers who have no work to do, and therefore, the workers cost the company extra money
 * On the other hand if the forecast is too low, the warehouse does not have enought workers and the customers do not get their packages delivered on time, therefore, there is the risk of loosing customers
 
-#### How does our data scientist 
+#### Considerations for the model design
+Given the context:
+* Is it more important to make faster decisions or more accurate decisions?
+   * As the forecast is going to be used for medium to long term planning it is not really important to make faster decisions, on the other hand, for a model used in making real-time decisions the preference might be made in favor of faster predictions
+   * Therefore, it will be irrational to rely entirely on the model forecast
+   * The model forecast should be moderated by the domain specialist - operations analyst in this case
+* Is it more important to make more accurate predictions or explainable predictions
+   * A more complex model design might give a slight uplift in predictions accuracy but no (or little) explanation
+   * On the other hand a less complex model could  
+
+#### What is required from our data scientist to come up with a good model design
+* Good communcation skills to understand the requirements 
+* An extensive vocabulary of models
+* 
 
 ### Parameters Estimation
 For our forecasting model the parameters are... [TODO]
