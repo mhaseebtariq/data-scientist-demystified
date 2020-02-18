@@ -87,11 +87,13 @@ An important property of data science models is that they expire after some time
 * Lately the growth of the sales has been more linear as compared to the exponential growth we saw in the past years. Therefore, we now need to re-engineer our trend features.
 
 #### What is required from our data scientist
-* Knowledge of the fundamentals of machine learning
-
+* Basic data engineering skills
+* Familiarity with continuous integration/deployment concepts and technologies
 
 ### Explaining Model
-Like mentioned before in some contexts it is really important to explain the model output.
+Like mentioned before in some contexts it is really important to explain the model output. Imagin the level of confidence the operations analyst will have if she's presented with the explanation of the sales forecast in the following manner:
+![Model Explanation](./model-explanation.jpg)
+
 
 ### Monitoring Model
 To make sure... [TODO]
