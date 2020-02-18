@@ -104,7 +104,9 @@ Like mentioned before in some contexts it is really important to explain the mod
 * Knowledge of Game theory
 
 ### Monitoring Model
-We have a useable forecasting model. Now it's time to make sure that the forecasts made by the model are accurate, stable, and reliable. To achieve that, it is really important to set some benchmarks first. Now the data scientist needs to develop some monitoring mechanisms that would raise alarms if and when the model produces unstable, inaccurate, or unreliable output.
+We have a useable forecasting model. Now it's time to make sure that the forecasts made by the model are consistently accurate, stable, and reliable. To achieve that, it is really important to set some benchmarks first. The data scientist then needs to develop some monitoring mechanisms that would bring forward/raise alarms if and when the model produces unstable, inaccurate, or unreliable output. This will ensure two things - 1. We have control over our model 2. The model can be improved/updated when it is not performing as expected.
 
 #### What is required from our data scientist
 * Familiarity with advanced visualisation, monitoring, and dashboarding tools
+* Statistics and probability theory
+
