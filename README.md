@@ -1,19 +1,19 @@
-Doctor does "treatment"
-Teacher does "teaching"
-Constructor does "construction"
-Marketeer does "marketing"
-And the politician does "nothing nothing nothing"
-But there's one job (title)
-That no one knows
-What does the data scientist do?
-Ring-ding-ding-ding-dingeringeding!
-Gering-AI???-ding-Analytcis???-dingeringeding!
-Gering-Software-Engineering???-ding-ding-dingeringeding!
-What the data scientist do?
-Wa-pa-pa-pa-pa-pa-pow!
-Wa-Databases???-pa-pa-pa-pa-pow!
-Wa-pa-pa-pa-Research???-pa-pow!
-What the data scientist do?
+Doctor does "treatment"<br>
+Teacher does "teaching"<br>
+Constructor does "construction"<br>
+Marketeer does "marketing"<br>
+And the politician does "nothing nothing nothing"<br>
+But there's one job (title)<br>
+That no one knows<br>
+What does the data scientist do?<br>
+Ring-ding-ding-ding-dingeringeding!<br>
+Gering-AI???-ding-Analytcis???-dingeringeding!<br>
+Gering-Software-Engineering???-ding-ding-dingeringeding!<br>
+What the data scientist do?<br>
+Wa-pa-pa-pa-pa-pa-pow!<br>
+Wa-Databases???-pa-pa-pa-pa-pow!<br>
+Wa-pa-pa-pa-Research???-pa-pow!<br>
+What the data scientist do?<br>
 
 Short(est) answer: A data scientist does "models". 
 Of course, to answer this centuries old (the title was coined in 2008) question, we need more explanation. 
