@@ -5,7 +5,8 @@
 Teacher does "teaching"<br>
 Constructor does "construction"<br>
 Marketeer does "marketing"<br>
-And the politician does "nothing nothing nothing"<br>
+Politician does "politics"<br>
+And YouTube influencer does "not qualify as a real job!"<br>
 But there's one job (title)<br>
 That no one knows<br>
 What does the data scientist do?<br>
@@ -19,7 +20,7 @@ Wa-pa-pa-pa-Research???-pa-pow!<br>
 What the data scientist do?<br>
 
 #### Short(est) answer: A data scientist does "[models](#what-are-models)"
-Of course, to answer this centuries old (the title was coined in 2008) question, we need more explanation. 
+Of course, to answer this million-dollar question, we need more explanation. A side note: the term "Data Scientist" was coined in 2008.
 First, let's outline the core responsibilities of a data scientist:
 1. [Designing](#model-design) models which could help in making better and/or faster decisions
     * Models built on or backed by <b>data</b>
