@@ -34,7 +34,7 @@ A model is a “representation” (or simplification) of a physical object; a pr
 A representation is by definition not accurate, therefore, we have the aphorism:
 >All models are wrong, but some are useful.
 
-The <b>usefulness</b> of a model depends on the design; parameters; complexity; and assumptions made for the model. In different contexts/scenarios a model can become more or less useful. Let's explore an example use case where a useful model can be employed.
+The <b>usefulness</b> of a model depends on the design; parameters; complexity; and assumptions made for the model. In different contexts/scenarios a model can become more or less useful. Let's explore an example scenario where a useful model can be employed.
 
 ### Model Design
 Let's suppose our (imagined) newly-hired data scientist is working in an e-commerce company that sells electronic devices on their website. After talking with all the different stakeholders in the company; and doing some initial cost/feasibility analysis - she realises that operational forecasting is one of the most cricial areas where data science can save the company a lot of money. Currently the forecasting is done using some simple calculations. A business analyst looks at the sales of the last few weeks and estimates the expected number of sales for the future weeks using weighted averages. This estimate is then used by the warehouse planning manager to hire more or less temporary workers. 
