@@ -18,7 +18,7 @@ Wa-Databases???-pa-pa-pa-pa-pow!<br>
 Wa-pa-pa-pa-Research???-pa-pow!<br>
 What the data scientist do?<br>
 
-#### Short(est) answer: A data scientist does "models"
+#### Short(est) answer: A data scientist does "[models](#what-are-models)"
 Of course, to answer this centuries old (the title was coined in 2008) question, we need more explanation. 
 First, let's outline the core responsibilities of a data scientist:
 1. [Designing](#model-design) models which could help in making better and/or faster decisions
