@@ -19,7 +19,7 @@ What the data scientist do?<br>
 
 #### Short(est) answer: A data scientist does "models"
 Of course, to answer this centuries old (the title was coined in 2008) question, we need more explanation. 
-First, let's outline the core responsibilities:
+First, let's outline the core responsibilities of a data scientist:
 1. Designing models which could help in making better or faster decisions
     * Models built on or backed by <b>data</b>
 2. Automating the parameters estimation for the models
