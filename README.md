@@ -45,17 +45,23 @@ Let's suppose our (imagined) newly-hired data scientist is working in an e-comme
 #### Considerations for the model design
 Given the context:
 * Is it more important to make faster decisions or more accurate decisions?
-   * As the forecast is going to be used for medium to long term planning it is not really important to make faster decisions, on the other hand, for a model used in making real-time decisions the preference might be made in favor of faster predictions
-   * Therefore, it will be irrational to rely entirely on the model forecast
+   * As the forecast is going to be used for medium to long term planning it is not really important to make faster decisions, on the other hand, for a model used for making real-time decisions the preference might be made in favor of faster predictions
+   * It will be irrational to rely entirely on the model forecast
    * The model forecast should be moderated by the domain specialist - operations analyst in this case
 * Is it more important to make more accurate predictions or explainable predictions
    * A more complex model design might give a slight uplift in predictions accuracy but no (or little) explanation
-   * On the other hand a less complex model could  
+   * On the other hand, a less complex model could explain the predictions really well, which could in return, help the operations analyst make much better (and informed) adjustments
+* Is the model going to reduce FTEs
+   * No, the model is only supposed to help the operations analyst make more accurate decisions. It might as well be the case that after employing the model, you need more analysts. Analysts who can interpret model outputs; build dahsboards/reporting tools for analysing differnet forecasts; maintain a collaborative feedback loop with the data scientists to help improve the model.
+   * On the other hand an NLP (natural language processing) could be employed to build a bot for replying to genral customer services queries, this model could in return, reduce the load on the customer services.
+* Which variables should be considered as good predictors for the forecast
+* What might be a representative funtional form for the model
 
 #### What is required from our data scientist to come up with a good model design
-* Good communcation skills to understand the requirements 
+* Good communcation skills to understand the requirements and problem context
 * An extensive vocabulary of models
-* 
+* Knowledge in linear algebra
+* Knowledge in statistics and probability theory
 
 ### Parameters Estimation
 For our forecasting model the parameters are... [TODO]
