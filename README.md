@@ -51,26 +51,31 @@ Given the context:
 * Is it more important to make more accurate predictions or explainable predictions
    * A more complex model design might give a slight uplift in predictions accuracy but no (or little) explanation
    * On the other hand, a less complex model could explain the predictions really well, which could in return, help the operations analyst make much better (and informed) adjustments
-* Is the model going to reduce FTEs
-   * No, the model is only supposed to help the operations analyst make more accurate decisions. It might as well be the case that after employing the model, you need more analysts. Analysts who can interpret model outputs; build dahsboards/reporting tools for analysing differnet forecasts; maintain a collaborative feedback loop with the data scientists to help improve the model.
-   * On the other hand an NLP (natural language processing) could be employed to build a bot for replying to genral customer services queries, this model could in return, reduce the load on the customer services.
+* Is the model going to reduce the workload (or FTEs)
+   * No, the model is only supposed to help the operations analyst make more accurate decisions. It might as well be the case that after employing the model, you need more analysts. Analysts who can interpret model outputs; build dashboards/reporting tools for analysing differnet forecasts; maintain a collaborative feedback loop with the data scientists, to help improve the model.
+   * On the other hand an NLP (natural language processing) model could be employed to build a bot for replying to general customer services queries. This model could in return, reduce the workload on the customer services.
 * Which variables should be considered as good predictors for the forecast
 * What might be a representative funtional form for the model
 
 #### What is required from our data scientist to come up with a good model design
 * Good communcation skills to understand the requirements and problem context
 * An extensive vocabulary of models
-* Knowledge in linear algebra
-* Knowledge in statistics and probability theory
+* Knowledge of statistics and probability theory
 
 ### Parameters Estimation
-For our forecasting model the parameters are... [TODO]
+After designing the model the next step is to automate the estimation of the model parameters. To undesrtand what model parameters are, let's say that our forecasting model can 
+
+#### What is required from our data scientist
+* Knowledge of the fundamentals of machine learning
+* An extensive vocabulary of machine learning algorithms and tools
+* Knowledge of linear algebra
+
 
 ### Updating Model
 Every model expires... [TODO]
 
 ### Explaining Model
-Sometimes explaing the model (or model output) is more important than model accuracy... [TODO]
+Like mentioned before it is really important to 
 
 ### Monitoring Model
 To make sure... [TODO]
