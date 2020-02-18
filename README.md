@@ -31,5 +31,6 @@ Let's try to first outline the core responsibilities, and then we will try to el
 #### First, we have to understand what models are
 A model is a “representation” of a physical object; a process; a system; or a phenomenon. 
 A representation is by definition not accurate, therefore, we have the aphorism:
->All models are wrong, but some are useful.<br>
+>All models are wrong, but some are useful.
+
 The <b>usefulness</b> of the model depends on the design; parameters; complexity; and assumptions made for the model.
