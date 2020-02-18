@@ -68,9 +68,9 @@ Given the context:
 ### Parameters Estimation
 After designing the model the next step is to automate the estimation of the model parameters. There are two kinds of parameters - model parameters; and hyper-parameters. To understand what model parameters are, let's say that our forecasting model can be expressed (in the most simplest way) as follows:
 
->Forecast for the next week = <b>10000</b> + <b>1.15</b> * (sales of the same week from last year) + <b>1.05</b> * (mean sales of last week) + <b>5000</b> * (if the next week falls in the Christmas period)
+>Forecast for the next week = <b>10000</b> + <b>1.15</b> x (sales of the same week from last year) + <b>1.05</b> x (mean sales of last week) + <b>5000</b> x (if the next week falls in the Christmas period)
 
-For this example - 10000, 1.15, 1.05, and 5000 are the 4 model parameters. These 4 parameters come from the design phase of the model. How these parameters are estimated depends on the machine learning algorithm that is being used. The machine learning algorithms also have their own parameters, the hyper-parameters. These parameters can be thought of as the knobs of the machine learning algorithm, to control how the model parameters are trained. The combination of model parameters and hyper-parameters yield different forecasts. Automating the algorithm for selecting the best combination of parameters, is therfore, a crucial part for having a "useable" model.
+For this example - 10000, 1.15, 1.05, and 5000 are the 4 model parameters. These 4 parameters come from the design phase of the model. How these parameters are estimated depends on the machine learning algorithm that is being used. The machine learning algorithms also have their own parameters, the hyper-parameters. These parameters can be thought of as the knobs of the machine learning algorithm, to control how the model parameters are trained/estimated. The combination of model parameters and hyper-parameters yield different forecasts. Automating the algorithm for selecting the best combination of parameters, is therfore, a crucial part for having a "useable" model.
 
 #### What is required from our data scientist
 * Knowledge of the fundamentals of machine learning
@@ -82,10 +82,16 @@ For this example - 10000, 1.15, 1.05, and 5000 are the 4 model parameters. These
 * Expertise in programming languages
 
 ### Updating Model
-Every model expires... [TODO]
+An important property of data science models is that they expire after some time. Some expires sooner than later. Our forecasting model is strongly based on the sales of the last week and last year. Therefore, it is really important to update our model every day. There are other ways where our model can expire or become unuseable/obselete:
+* The operations analyst realises that the model predictions are consistently off during particular days or periods. She knows that the marketing teams runs a recurring marketing event during these periods. She relays this information to the data science team, which in response deploys this new feature to the production model in no time.
+* Lately the growth of the sales has been more linear as compared to the exponential growth we saw in the past years. Therefore, we now need to re-engineer our trend features.
+
+#### What is required from our data scientist
+* Knowledge of the fundamentals of machine learning
+
 
 ### Explaining Model
-Like mentioned before it is really important to 
+Like mentioned before in some contexts it is really important to explain the model output.
 
 ### Monitoring Model
 To make sure... [TODO]
