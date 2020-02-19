@@ -39,41 +39,44 @@ A representation is by definition not accurate, therefore, we have the aphorism:
 The <b>usefulness</b> of a model depends on the design; parameters; complexity; and assumptions made for the model. In different contexts/scenarios a model can become more or less useful. Let's explore an example scenario where a useful model can be employed.
 
 ### Model Design
-Let's suppose our (imagined) newly-hired data scientist is working in an e-commerce company that sells electronic devices on their website. After talking with several stakeholders/domain experts in the company; and doing some initial cost-feasibility analysis - she realises that operational forecasting is one of the most crucial areas where data science can support the business the most. Currently the forecasting is done using some manual calculations. A business analyst looks at the sales of the last few weeks and estimates the expected number of sales for the future weeks using weighted averages. This estimate is then used by the warehouse planning manager to hire more or less temporary workers. 
+Let's suppose our (imagined) newly-hired data scientist is working in an e-commerce company that sells electronic devices on their website. After talking with several stakeholders/domain experts in the company; and doing some initial cost-feasibility analysis - she realises that operational forecasting is one of the most crucial areas where data science can support the business the most. Currently the forecasting is done using some manual calculations. A business analyst looks at the sales of the last few weeks and estimates the expected number of sales for the future weeks using weighted averages. This estimate is then used by the warehouse planning manager to hire more or less temporary workers for the coming weeks. 
 
 #### Risks involved with bad forecast
 * If the forecast turns out to be too high the warehouse manager ends up with too many workers who have no work to do, and therefore, the workers cost the company extra money
 * On the other hand if the forecast is too low, the warehouse does not have enought workers and the customers do not get their packages delivered on time, therefore, there is the risk of loosing customers
 
 #### Considerations for the model design
-Given the context:
+Given the context,
 * Is it more important to make faster decisions or more accurate decisions?
    * As the forecast is going to be used for medium to long term planning it is not really important to make faster decisions, on the other hand, for a model used for making real-time decisions the preference might be made in favor of faster predictions
    * It will be irrational to rely entirely on the model forecast
    * The model forecast should be moderated by the domain specialist - operations analyst in this case
-* Is it more important to make more accurate predictions or explainable predictions
+* Is it more important to make extremely accurate predictions or explainable predictions
    * A more complex model design might give a slight uplift in predictions accuracy but no (or little) explanation
    * On the other hand, a less complex model could explain the predictions really well, which could in return, help the operations analyst make much better (and informed) adjustments
 * Is the model going to reduce the workload (or FTEs)
-   * No, the model is only supposed to help the operations analyst make more accurate decisions. It might as well be the case that after employing the model, you need more analysts. Analysts who can interpret model outputs; build dashboards/reporting tools for analysing differnet forecasts; maintain a collaborative feedback loop with the data scientists, to help improve the model.
-   * On the other hand an NLP (natural language processing) model could be employed to build a bot for replying to general customer services queries. This model could in return, reduce the workload on the customer services.
-* Which variables should be considered as good predictors for the forecast
-* What might be a representative funtional form for the model
+   * No, the model is only supposed to help the operations analyst make more accurate decisions. It might as well be the case that after employing the model, more analysts are needed. Analysts who can interpret model outputs; build dashboards/reporting tools for analysing differnet forecasts; maintain a collaborative feedback loop with the data scientists, to help improve the model.
+   * On the other hand an NLP (natural language processing) model could be employed to build a bot for replying to general customer services queries. This model could in return, reduce the workload for the customer services department.
+* Which variables should be considered as good predictors for the forecast?
+* What might be a representative funtional form for the model?
+* How to access the input data for the model?
+* Does the input data need cleaning up?
 
 #### What is required from our data scientist to come up with a good model design
 * Good communcation skills to understand the requirements and problem context
-* Experimental design
+* Knowledge of experimental design
 * An extensive vocabulary of models
 * Statistics and probability theory
 * Database and SQL skills
+* Expertise in at least a couple programming languages
 * Descriptive and exploratory analytics skills
 
 ### Parameters Estimation
-After designing the model the next step is to automate the estimation of the model parameters. Of our forecasting model there are two kinds of parameters - model parameters; and hyper-parameters. To understand what model parameters are, let's say that our forecasting model can be expressed (in the most simplest way) as follows:
+After designing the model the next step is to automate the estimation of the model parameters. For our forecasting model, there are two types of parameters - model parameters; and hyper-parameters. To understand what model parameters are, let's say that our forecasting model can be expressed (in the simplest way) as follows:
 
 >Forecast for the next week = <b>10000</b> + <b>1.15</b> x (sales of the same week from last year) + <b>1.05</b> x (mean sales of last week) + <b>5000</b> x (if the next week falls in the Christmas period)
 
-For this example - 10000, 1.15, 1.05, and 5000 are the estimated values of the 4 model parameters. These 4 parameters come from the design phase of the model. How these parameters are estimated depends on the machine learning algorithm that is being used. The machine learning algorithms also have their own parameters, the hyper-parameters. These parameters can be thought of as the knobs of the machine learning algorithm, to control how the model parameters are trained/estimated. The combination of model parameters and hyper-parameters yield different forecasts. Automating the algorithm for selecting the best combination of parameters, is therfore, a crucial part for having a "useable" model.
+For this example - 10000, 1.15, 1.05, and 5000 are the estimated values of the 4 model parameters. These 4 parameters come from the design phase of the model. How these parameters are estimated depends on the machine learning algorithm that is being used. The machine learning algorithms also have their own parameters, the hyper-parameters. These parameters can be thought of as the knobs of the machine learning algorithm, to control how the model parameters are trained/estimated. The combination of model parameters and hyper-parameters yield different forecasts. Automating the algorithm for selecting the best (accurate and stable) combination of parameters, is therfore, a crucial part for having a "useable" model.
 
 #### What is required from our data scientist
 * Knowledge of the fundamentals of machine learning
@@ -82,10 +85,9 @@ For this example - 10000, 1.15, 1.05, and 5000 are the estimated values of the 4
 * Differential calculus
 * Computer science theory
 * Software engineering/design
-* Expertise in programming languages
 
 ### Updating Model
-An important property of data science models is that they expire after some time. Some expires sooner than later. Our forecasting model is strongly based on the sales of the last week and last year. Therefore, it is really important to update our model every day. There are other ways where our model can expire or become unuseable/obselete:
+An important property of data science models is that they expire after some time. Some expire sooner than later. Our forecasting model is strongly based on the sales of the last week and last year. Therefore, it is really important to update our model every day. There are other ways where our model can expire or become unuseable/obselete:
 * The operations analyst realises that the model predictions are consistently off during particular days or periods. She knows that the marketing teams runs a recurring marketing event during these periods. She relays this information to the data science team, which in response deploys this new feature to the production model in no time.
 * Lately the growth of the sales has been more linear as compared to the exponential growth we saw in the past years. Therefore, we now need to re-engineer our trend features.
 
@@ -106,7 +108,7 @@ Like mentioned before in some contexts it is really important to explain the mod
 * Knowledge of Game theory
 
 ### Monitoring Model
-We have a useable forecasting model. Now it's time to make sure that the forecasts made by the model are <b>consistently</b> accurate, stable, and reliable. To achieve that, it is really important to set some benchmarks first. The data scientist then needs to develop some monitoring mechanisms that would bring forward/raise alarms if and when the model produces unstable, inaccurate, or unreliable output. This will ensure two things - 1. We have control over our model 2. The model can be improved/updated when it is not performing as expected.
+We have a useable forecasting model. Now it's time to make sure that the forecasts made by the model are <b>consistently</b> accurate, stable, and reliable. To achieve that, it is really important to set some benchmarks first, in collaboration with the operations analyst. The data scientist then needs to develop some monitoring mechanisms that would bring forward/raise alarms, if and when, the model produces unstable; inaccurate; or unreliable output. This will ensure two things - 1. We have control over our model; and the decisions we make using that model 2. The model can be improved/updated when it is not performing as expected.
 
 #### What is required from our data scientist
 * Experience with visualisation, monitoring, and dashboarding frameworks
