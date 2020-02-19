@@ -39,7 +39,7 @@ A representation is by definition not accurate, therefore, we have the aphorism:
 The <b>usefulness</b> of a model depends on the design; parameters; complexity; and assumptions made for the model. In different contexts/scenarios a model can become more or less useful. Let's explore an example scenario where a useful model can be employed.
 
 ### Model Design
-Let's suppose our (imagined) newly-hired data scientist is working in an e-commerce company that sells electronic devices on their website. After talking with several stakeholders/domain experts in the company; and doing some initial cost-feasibility analysis - she realises that operational forecasting is one of the most crucial areas where data science can support the business the most. Currently the forecasting is done using some manual calculations. A business analyst looks at the sales of the last few weeks and estimates the expected number of sales for the future weeks using weighted averages. This estimate is then used by the warehouse planning manager to hire more or less temporary workers for the coming weeks. 
+Let's suppose our (imagined) data scientist is working in an e-commerce company. After talking with several stakeholders/domain experts in the company; and doing some initial cost-feasibility analysis - she realises that operational forecasting is one of the most crucial areas where data science can support the business, the most. Currently the forecasting is done using some manual calculations. A business analyst looks at the sales of the last few weeks and estimates the expected number of sales for the future weeks using weighted averages. This estimate is then used by the warehouse planning manager to hire more or less temporary workers for the coming weeks. 
 
 #### Risks involved with bad forecast
 * If the forecast turns out to be too high the warehouse manager ends up with too many workers who have no work to do, and therefore, the workers cost the company extra money
@@ -56,7 +56,7 @@ Given the context,
    * On the other hand, a less complex model could explain the predictions really well, which could in return, help the operations analyst make much better (and informed) adjustments
 * Is the model going to reduce the workload (or FTEs)
    * No, the model is only supposed to help the operations analyst make more accurate decisions. It might as well be the case that after employing the model, more analysts are needed. Analysts who can interpret model outputs; build dashboards/reporting tools for analysing differnet forecasts; maintain a collaborative feedback loop with the data scientists, to help improve the model.
-   * On the other hand an NLP (natural language processing) model could be employed to build a bot for replying to general customer services queries. This model could in return, reduce the workload for the customer services department.
+   * On the other hand, an NLP (natural language processing) model could be employed to build a bot for replying to general customer services queries. This model could in return, reduce the workload for the customer services department.
 * Which variables should be considered as good predictors for the forecast?
 * What might be a representative funtional form for the model?
 * How to access the input data for the model?
