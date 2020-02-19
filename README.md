@@ -115,4 +115,4 @@ We have a useable forecasting model. Now it's time to make sure that the forecas
 * Statistics and probability theory
 
 ### References
-[1] Scott E. Page, <i>The Model Thinker</i> 2018
+[1] Scott E. Page, <i>The Model Thinker</i> (2018)
