@@ -37,7 +37,7 @@ A representation is by definition not accurate, therefore, we have the aphorism:
 
 The <b>usefulness</b> of a model depends on the design; parameters; complexity; and assumptions made for the model. In different contexts/scenarios a model can become more or less useful. Let's explore an example scenario where a useful model can be employed.
 
-### Model Design
+### Designing Model
 Let's suppose our (imagined) data scientist is working in an e-commerce company. After talking with several stakeholders/domain experts in the company; and doing some initial cost-feasibility analysis - she realises that operational forecasting is one of the most crucial areas where data science can support the business, the most. Currently the forecasting is done using some manual calculations. A business analyst looks at the sales of the last few weeks and estimates the expected number of sales for the future weeks using weighted averages. This estimate is then used by the warehouse planning manager to hire more or less temporary workers for the coming weeks. 
 
 #### Risks involved with bad forecast
@@ -70,7 +70,7 @@ Given the context,
 * Expertise in at least a couple programming languages
 * Descriptive and exploratory analytics skills
 
-### Parameters Estimation
+### Estimating Model Parameters
 After designing the model the next step is to automate the estimation of the model parameters. For our forecasting model, there are two types of parameters - model parameters; and hyper-parameters. To understand what model parameters are, let's say that our forecasting model can be expressed (in the simplest way) as follows:
 
 >Forecast for the next week = <b>10000</b> + <b>1.15</b> x (sales of the same week from last year) + <b>1.05</b> x (mean sales of last week) + <b>5000</b> x (if the next week falls in the Christmas period)
@@ -116,4 +116,3 @@ We have a useable forecasting model. Now it's time to make sure that the forecas
 ### References
 [1] Scott E. Page, <i>The Model Thinker</i> (2018)
 [2] https://www.slideshare.net/MatthiasSchuurmans/behind-the-scenes-data-science-coolblue-20180322
-
