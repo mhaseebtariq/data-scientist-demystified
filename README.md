@@ -86,7 +86,7 @@ For this example - 10000, 1.15, 1.05, and 5000 are the estimated values of the 4
 * Software engineering/design
 
 ### Updating Model
-An important property of data science models is that they expire after some time. Some expire sooner than later. Our forecasting model is strongly based on the sales of the last week and last year. Therefore, it is really important to update our model every day. There are other ways where our model can expire or become unuseable/obselete:
+An important property of (most) data science models is that they expire after some time. Some expire sooner than later. Our forecasting model is strongly based on the sales of the last week and last year. Therefore, it is really important to update our model every day. There are other ways where our model can expire or become unuseable/obselete:
 * The operations analyst realises that the model predictions are consistently off during particular days or periods. She knows that the marketing teams runs a recurring marketing event during these periods. She relays this information to the data science team, which in response deploys this new feature to the production model in no time.
 * Lately the growth of the sales has been more linear as compared to the exponential growth we saw in the past years. Therefore, we now need to re-engineer our trend features.
 
