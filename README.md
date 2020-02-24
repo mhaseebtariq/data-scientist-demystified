@@ -113,6 +113,9 @@ We have a useable forecasting model. Now it's time to make sure that the forecas
 * Experience with visualisation, monitoring, and dashboarding frameworks
 * Statistics and probability theory
 
+### Complete Skills Map
+![Skills Map](./skills-map.png)
+
 ### References
 [1] Scott E. Page, <i>The Model Thinker</i> (2018)
 [2] https://www.slideshare.net/MatthiasSchuurmans/behind-the-scenes-data-science-coolblue-20180322
