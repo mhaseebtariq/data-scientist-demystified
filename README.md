@@ -27,8 +27,8 @@ First, let's outline the core responsibilities of a data scientist:
     * One misconception about data scientists is that they only deal with Machine Learning <i>predictive</i> models
 2. Automating the [parameters estimation](#parameters-estimation) for the models
 3. Making sure the [models can be updated](#updating-model), with new information, in the fastest; most friction-less way possible
-4. [Explaining](#explaining-model); or building tools which could explain the models (or models output)
-5. Building [monitoring](#monitoring-model) tools which could assist in improving/controlling the models output
+4. [Explaining](#explaining-model); or building tools which could explain the models (or models' output)
+5. Building [monitoring](#monitoring-model) tools which could assist in improving/controlling the models' output
 
 ## What are models
 A model is a “representation” (or simplification) of a physical object; a process; a system; or a phenomenon. 
