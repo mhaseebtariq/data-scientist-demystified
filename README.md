@@ -40,7 +40,8 @@ The <b>usefulness</b> of a model depends on the design; parameters; complexity; 
 ### Designing Model
 Let's suppose our (imagined) data scientist is working in an e-commerce company. After talking with several stakeholders/domain experts in the company; and doing some initial cost-feasibility analysis - she realises that operational forecasting is one of the most crucial areas where data science can support the business, the most. Currently the forecasting is done using some manual calculations. A business analyst looks at the sales of the last few weeks and estimates the expected number of sales for the future weeks using weighted averages. This estimate is then used by the warehouse planning manager to hire more or less temporary workers for the coming weeks. 
 
-#### Risks involved with bad forecast
+#### Risks involved
+...with having a bad forecast:
 * If the forecast turns out to be too high the warehouse manager ends up with too many workers who have no work to do, and therefore, the workers cost the company extra money
 * On the other hand if the forecast is too low, the warehouse does not have enought workers and the customers do not get their packages delivered on time, therefore, there is the risk of loosing customers
 
