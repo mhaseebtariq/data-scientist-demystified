@@ -21,7 +21,7 @@ What the data scientist do?<br>
 
 #### Short(est) answer: A data scientist does "[models](#what-are-models)"
 A little longer answer: Data scientists work with models, models built on (or backed by) <b>data</b> - to <i>reason; explain; design; communicate; act; predict; and explore</i> [1]<br><br>
-Of course, to answer this controversial question, we need more explanation. A side note: the term "Data Scientist" was coined in 2008.
+Of course, to answer this "controversial" question, we need more explanation. A side note: the term "Data Scientist" was coined in 2008.
 First, let's outline the core responsibilities of a data scientist:
 1. [Designing](#model-design) models which could help in making better and/or faster decisions
     * One misconception about data scientists is that they only deal with Machine Learning <i>predictive</i> models
