@@ -20,12 +20,11 @@ Wa-pa-pa-pa-Research???-pa-pow!<br>
 What the data scientist do?<br>
 
 #### Short(est) answer: A data scientist does "[models](#what-are-models)"
+A little longer answer: Data scientists work with models, models built on (or backed by) <b>data</b>, to <i>reason; explain; design; communicate; act; predict; and explore</i> [1]<br>
 Of course, to answer this million-dollar question, we need more explanation. A side note: the term "Data Scientist" was coined in 2008.
 First, let's outline the core responsibilities of a data scientist:
 1. [Designing](#model-design) models which could help in making better and/or faster decisions
-    * Models that are built on; or backed by <b>data</b>
     * One misconception about data scientists is that they only deal with Machine Learning <i>predictive</i> models
-    * There are actually dozens of uses of models, the seven main ones are: to <i>reason, explain, design, communicate, act, predict, and explore</i> [1] 
 2. Automating the [parameters estimation](#parameters-estimation) for the models
 3. Making sure the [models can be updated](#updating-model), with new information, in the fastest; most friction-less way possible
 4. [Explaining](#explaining-model); or building tools which could explain the models (or models output)
@@ -97,7 +96,7 @@ An important property of data science models is that they expire after some time
 * Experience with Cloud platforms and services like AWS, GCP, Azure
 
 ### Explaining Model
-Like mentioned before in some contexts it is really important to explain the model output. Imagin the level of confidence the operations analyst will have if she's presented with the explanation of the sales forecast in the following manner:
+Like mentioned before in some contexts it is really important to explain the model output. Imagine the level of confidence the operations analyst will have if she's presented with the explanation of the sales forecast [2] in the following manner:
 
 ![Model Explanation](./model-explanation.jpg)
 
@@ -116,3 +115,5 @@ We have a useable forecasting model. Now it's time to make sure that the forecas
 
 ### References
 [1] Scott E. Page, <i>The Model Thinker</i> (2018)
+[2] https://www.slideshare.net/MatthiasSchuurmans/behind-the-scenes-data-science-coolblue-20180322
+
