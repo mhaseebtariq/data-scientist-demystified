@@ -102,7 +102,7 @@ Like mentioned before, in some contexts it is really important to explain the mo
 ![Model Explanation](./model-effects.png)
 
 * The different colours explain the contribution of (each group of) predictors in the forecast
-* The (annotated) peaks can be explained by the "Christmas" effect
+* The (annotated) peaks can be explained by the "Christmas" (holiday) effect
 
 #### What is required from our data scientist
 * Knowledge of visualisation techniques and frameworks
