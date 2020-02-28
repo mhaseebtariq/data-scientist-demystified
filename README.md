@@ -116,6 +116,7 @@ We have a useable forecasting model. Now it's time to make sure that the forecas
 * Statistics and probability theory
 
 ### Complete Skills Map
+<b>Note:</b> In practice, you don't have data scientists excelling in each of the following skills. Instead, you have a team of people with some non-overlaping skills, complementing each other.
 ![Skills Map](./skills-map.png)
 
 ### References
