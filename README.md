@@ -99,7 +99,7 @@ An important property of (most) data science models is that they expire after so
 ### Explaining Model
 Like mentioned before, in some contexts it is really important to explain the model output. Imagine the level of confidence the operations analyst will have if she's presented with the explanation of the sales forecast, in the following manner:
 
-![Model Explanation](./model-effects.png=100x20)
+![Model Explanation](./model-effects.png)
 
 * The different colours explain the contribution of (each group of) predictors in the forecast
 * The (annotated) peaks can be explained by the "Christmas" (holiday) effect
